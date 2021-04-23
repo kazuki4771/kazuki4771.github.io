@@ -1,0 +1,78 @@
+body {
+	color: #333;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+	background-color: #efefef;
+    background-size: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+
+}
+
+.container {
+	width: 400px;
+    margin-right: auto;
+    margin-left:  auto;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*iconの周りの枠の作り方*/
+
+.icon img {
+	border-radius: 50%;
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+}
+
+.info {
+	margin-left: 32px;
+}
+
+.info h1{
+	font-weight: normal;
+	font-size: 24px;
+	margin: 0;
+}
+
+.info p {
+	margin: 0;
+}
+
+.works {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+.works h2 {
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.works h3 {
+	font-size: 18px;
+}
+
+.works p {
+      margin: 0;
+      line-height: 1.8;
+}
+
+
+footer {
+	color: gray;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
